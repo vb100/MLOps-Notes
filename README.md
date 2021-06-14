@@ -11,6 +11,14 @@
   <li><b>Continuous monitoring</b> is about monitoring the effectiveness and efficiency of a deployed model.</li>
   <li><b>Data and model management</b> is a central, cross-cutting functon for governing ML artifacts to support audit-ability, traceability, and compliance. Data and model management can also promote shareability, resuability, and discoverability of ML assets</li>
   </ul></p>
+  
+<h2>MLOps Workflow</h2>
+<p>The MLOps Workflow is segmented into two modules:
+<ul>
+  <li><b>MLOps pipelines</b> (build, deploy, and monitoring) - the upper layer.</li>
+  <li><b>Drivers</b>: Data, code, artifacts, middleware, and infrastructure - mid and lower layers.</li>
+</ul>  
+  </p>
 
 <h2>References</h2>
 <ul>
