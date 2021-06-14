@@ -18,6 +18,9 @@
   <li><b>MLOps pipelines</b> (build, deploy, and monitoring) - the upper layer.</li>
   <ul style=list-style-type: circle>
   <li style=square><b>Build</b> pipeline: Data ingestion, Model training, Model testing, Model packaging, Model registering.</li>
+    <ul style=list-style-type: circle>
+      <b>Data ingestion</b>: This step is a trigger step of the ML Pipeline. It deals with the volume, velocity, veracity, and variety of data by extracting data from various data sources and ingesting the required data for the model training step.
+    </ul>  
   </ul>
   <li><b>Drivers</b>: Data, code, artifacts, middleware, and infrastructure - mid and lower layers.</li>
 </ul>  
