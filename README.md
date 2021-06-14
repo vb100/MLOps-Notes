@@ -16,9 +16,9 @@
 <p>The MLOps Workflow is segmented into two modules:
 <ul>
   <li><b>MLOps pipelines</b> (build, deploy, and monitoring) - the upper layer.</li>
-  <ol style=list-style-type: circle>
+  <ul style=list-style-type: circle>
   <li style=square><b>Build</b> pipeline: Data ingestion, Model training, Model testing, Model packaging, Model registering.</li>
-  </ol>
+  </ul>
   <li><b>Drivers</b>: Data, code, artifacts, middleware, and infrastructure - mid and lower layers.</li>
 </ul>  
   </p>
