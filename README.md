@@ -2,4 +2,4 @@
 <b>Prepared by Vytautas Bielinskas.</b>
 
 <h2>References</h2>
-<ul><li><b>[1]</b><a href="https://services.google.com/fh/files/misc/practitioners_guide_to_mlops_whitepaper.pdf">Google MLOps Whitepapers</a></li></ul>
+<ul><li><b>[1] </b><a href="https://services.google.com/fh/files/misc/practitioners_guide_to_mlops_whitepaper.pdf">Google MLOps Whitepapers</a></li></ul>
