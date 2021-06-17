@@ -64,7 +64,10 @@
     <li><i>hello.py</i> - for demonstrating purposes.</li>
     <li><i>test_hello.py</i> - for demonstrating purposes.</li>
     <li><i>virtualenv</i> - (Virtual environment).</li>
-  </ul>
+  </ul><br>
+  This structure must be dominated in any Github repository to be able it deploy, or transfer to any cloud system.</p>
+  
+  <p>
   Suggesting example of <i>Makefile</i> is represented below.
   
 ````
