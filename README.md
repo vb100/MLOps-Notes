@@ -54,9 +54,10 @@
 
 ---
 
-<h2>Project structure for MLOps</h2>
+<h2>Python Project structure for MLOps</h2>
 
 <p>Suggesting exaple of <i>Makefile</i> is represented below.
+  
 ````
 install
     pip install --upgrade pip &&\
@@ -71,4 +72,5 @@ lint:
 test:
     python -m pytest -vv --cov=hello test_hello.py
 ````
+  
 </p>
