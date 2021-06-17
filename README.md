@@ -56,6 +56,26 @@
 
 <h2>Python Project structure for MLOps</h2>
 
+<p>The whole project structure must be executed in isolated Virtual Environment which can be created in terminal by typing this command:
+  
+````
+python -m venv env_name
+````
+  
+Once you have created you virtual environment, you can activate it with this command:
+  
+````
+source ˜/.env_name/bin/activate
+````
+  
+  The next step is to locate to the directory where <i>requirements.txt</i> is located and install all required dependencies for the project with this command:
+  
+````
+pip install -r requirements.txt
+````
+  
+</p>
+
 <p>
   For MLOps purposes the suggesting Data Science project structure should consists of following files:
   <ul>
