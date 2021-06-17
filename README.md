@@ -51,3 +51,24 @@
   <li><b>[1] </b><a href="https://services.google.com/fh/files/misc/practitioners_guide_to_mlops_whitepaper.pdf">Google MLOps Whitepapers. </a><i>2021</i>.</li>
   <li><b>[2] </b><a href="https://www.amazon.com/Engineering-MLOps-Rapidly-production-ready-learning/dp/1800562888">Book: Engineering MLOPs. Rapidly build, test, and manage production-ready machine learning life cycles at scale. Written by Emmanuel Raj.</a> <i>2021</i>.</li>
 </ul>
+
+---
+
+<h2>Project structure for MLOps</h2>
+
+<p>Suggesting exaple of <i>Makefile</i> is represented below.
+````
+install
+    pip install --upgrade pip &&\
+        pip install -r requirements.txt
+
+format
+    black *.py
+
+lint:
+    pylint --disable=R,C hello.py
+
+test:
+    python -m pytest -vv --cov=hello test_hello.py
+````
+</p>
