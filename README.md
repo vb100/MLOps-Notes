@@ -54,8 +54,9 @@
 
 ---
 
-<h2>Python Project structure for MLOps</h2>
+<h2>Python Project Structure for MLOps</h2>
 
+<h3>Main commands to set-up project structure</h3>
 <p>The whole project structure must be executed in isolated Virtual Environment which can be created in terminal by typing this command:
   
 ````
@@ -76,6 +77,7 @@ pip install -r requirements.txt
   
 </p>
 
+<h3>Organizing Project Structure</h3>
 <p>
   For MLOps purposes the suggesting Data Science project structure should consists of following files:
   <ul>
