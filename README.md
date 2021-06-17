@@ -56,7 +56,16 @@
 
 <h2>Python Project structure for MLOps</h2>
 
-<p>Suggesting exaple of <i>Makefile</i> is represented below.
+<p>
+  For MLOps purposes the suggesting Data Science project structure should consists of following files:
+  <ul>
+    <li><i>Makefile</i>.</li>
+    <li><i>requirements.txt</i>.</li>
+    <li><i>hello.py</i> - for demonstrating purposes.</li>
+    <li><i>test_hello.py</i> - for demonstrating purposes.</li>
+    <li><i>virtualenv</i> - (Virtual environment).</li>
+  </ul>
+  Suggesting example of <i>Makefile</i> is represented below.
   
 ````
 install
