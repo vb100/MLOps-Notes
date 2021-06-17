@@ -69,7 +69,7 @@ Once you have created you virtual environment, you can activate it with this com
 source ˜/.env_name/bin/activate
 ````
   
-  The next step is to locate to the directory where <i>requirements.txt</i> is located and install all required dependencies for the project with this command:
+ Once you have activated your virtual environment, you can check it where the activated Python kernel is located by typing <code>which python</code> in your terminal. The appeared located must match with location of your virtual environment rood directory. The next step is to locate to the directory where <i>requirements.txt</i> is located and install all required dependencies for the project with this command:
   
 ````
 pip install -r requirements.txt
