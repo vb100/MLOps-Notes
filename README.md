@@ -105,8 +105,11 @@ lint:
 
 test:
     python -m pytest -vv --cov=hello test_hello.py
+  
+all: install lint test
 ````
 
   To construct <i>Makefile</i> always use Tabs, not Spaces. You can use the same <i>Makefile</i> over and over again for the projects.<br>
-  If you want to launch specifically <i>lint</i> part, type <code>make lint</code> in your terminal. Alternatively, to launch <i>format</i> part, type <code>make format</code> in your terminal.
+  If you want to launch specifically <i>lint</i> part, type <code>make lint</code> in your terminal. Alternatively, to launch <i>format</i> part, type <code>make format</code> in your terminal.<br>
+  By running <code>make all</code> you can run the whole pipeline in one line.
 </p>
