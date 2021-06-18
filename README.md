@@ -106,5 +106,6 @@ lint:
 test:
     python -m pytest -vv --cov=hello test_hello.py
 ````
-  
+
+  To construct <i>Makefile</i> always use Tabs, not Spaces.
 </p>
