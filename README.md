@@ -107,5 +107,5 @@ test:
     python -m pytest -vv --cov=hello test_hello.py
 ````
 
-  To construct <i>Makefile</i> always use Tabs, not Spaces.
+  To construct <i>Makefile</i> always use Tabs, not Spaces. You can use the same <i>Makefile</i> over and over again for the projects.
 </p>
