@@ -140,4 +140,30 @@ You can define as many test files as you want for usual and extreme use cases.
 <p>
   In case you want to set-up your github action for your project, click on <i>setup a workflow yourself</i> and you will be re-directed to <i>you_project/.github/workflows/<b>main.yaml</b></i>.<br>
   In this file you are telling the system when you push something to the <i>master</i>/<i>main</i> branch, and can be something like this represented below.
+  
+````
+name: Python application test with Github action
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          make install
+      - name: Lint with Python
+        run: |
+          make lint
+      - name: Test with Python
+        run: |
+          make test
+      - name: Format code with Python black
+        run: |
+          make: format
+````
 </p>
