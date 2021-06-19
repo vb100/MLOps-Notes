@@ -121,4 +121,6 @@ click
 black
 pytest-cov
 ````
+  
+We do not specify versions of these packages assuming the we will use the newest ones. This list of modules can be extended by adding those ones which are rquired for your case or project.
 </p>
