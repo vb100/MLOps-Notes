@@ -123,4 +123,15 @@ pytest-cov
 ````
   
 We do not specify versions of these packages assuming the we will use the newest ones. This list of modules can be extended by adding those ones which are rquired for your case or project.
+  
+  The example of <i>test_hello.py</i> can be the following code:
+  
+````
+from hello import add
+  
+def test_add()
+    assert add(1, 2) == 3
+````
 </p>
+
+You can define as many test files as you want for usual and extreme use cases.
