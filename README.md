@@ -135,3 +135,9 @@ def test_add()
 </p>
 
 You can define as many test files as you want for usual and extreme use cases.
+
+<h3>Github Actions</h3>
+<p>
+  In case you want to set-up your github action for your project, click on <i>setup a workflow yourself</i> and you will be re-directed to <i>you_project/.github/workflows/<b>main.yaml</b></i>.<br>
+  In this file you are telling the system when you push something to the <i>master</i>/<i>main</i> branch, and can be something like this represented below.
+</p>
