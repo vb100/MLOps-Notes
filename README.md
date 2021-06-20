@@ -194,3 +194,20 @@ There are following tpyes of tests:
   <h2>Continuous Delivery and Continuous Integration</h2>
   <h3>What is Continuous Delivery</h3>
   <p>Continuous Delivery (furthermore <i>CD</i>) is a term which means that the code is always in a deployable state, both in term of application software and the infrastructure needed to run the code.</p>
+  <p><b>Example.</b> You as the user, you may be developing code on your laptop, and you are checking your code into a source control repository. And you would have the <i>master branch</i> which is the default branch in GitHub be the place where it would be hooked up to a particular environment. When you make the change a build server, and this could be many different types:
+<ul>
+  <li>Github</li>
+  <li>Jenkins</li>
+  <li>AWS Code Built</li>
+  </ul>
+  Here you can <i>lint</i>, <i>deploy</i>, and <i>test</i> your code. And then it looks at the infrastructure as code (<b>IaC</b>) and this could be :
+  <ul>
+  <li>Terraform</li>
+  <li>Cloud Formation</li>
+  <li>Other kind of infrastructure...</li>
+  </ul>
+  This <b>IaC</b> allows you to dynamically update a new environment or even create one. And that environment will be directly mapped to the branch in your source control. <br>
+For example, you could have a <i>development</i> branch. You could have a <i>staging</i> branch, and you could have a <i>production</i> branch. And each one of those situations, those branches could automatically create a parallel environment.<br>
+You could push your code into a <i>development</i> branch. And then when you are ready to test a change, that would be something that would go to <i>production</i> later, you can merge it into the <i>staging</i> branch. It will automatically go through <i>lint</i> code, <i>test</i> your code, <i>deploy</i> it to your <i>staging environment</i>, you could then do a very extensive <b>load test</b> to verify that your web application could scale to 100,000 users.<br>
+And then after that is done, you say, great, let's go ahead and merge it to <i>production</i> and it could go directly into production. 
+  </p>
