@@ -93,11 +93,11 @@ pip install -r requirements.txt
   Suggesting example of <i>Makefile</i> is represented below.
   
 ````
-install
+install:
     pip install --upgrade pip &&\
         pip install -r requirements.txt
 
-format
+format:
     black *.py
 
 lint:
