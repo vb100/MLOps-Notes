@@ -215,7 +215,7 @@ And then after that is done, you say, great, let's go ahead and merge it to <i>p
   <p>There are four main parts of a simple Continuous Delivery (CD) project:
 
 <ul>
-  <li>Project itself (<i>Flask</i> application, or similar.</li>
+  <li>Project itself (<i>Flask</i> application, or similar).</li>
   <li><i>app.yaml</i>.</li>
   <li><i>app.yaml</i>.</li>
   <li><i>cloudbuild.yaml</i></li>
