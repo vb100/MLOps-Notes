@@ -230,7 +230,7 @@ And then after that is done, you say, great, let's go ahead and merge it to <i>p
   > <i><b>cloudbuild.yaml</b></i>. Holds the <i>Google Cloud Build</i> (or similar) deployment configuration.
   
 ````
-  steps:
+steps:
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 timeout: "1600s"
@@ -240,6 +240,30 @@ timeout: "1600s"
   
   ````
   flask
+  ````
+  
+  > <i><b>app.py</b></i>. Flask application source code.
+  
+  ````
+from flask import Flask
+from flask import jsonify
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    """Return a friendly HTTP greeting."""
+    print("I am inside hello world")
+    return 'Hello World! CD'
+
+@app.route('/echo/<name>')
+def echo(name):
+    print(f"This was placed in the url: new-{name}")
+    val = {"new-name": name}
+    return jsonify(val)
+
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=8080, debug=True)
   ````
   
 </ul></p>
