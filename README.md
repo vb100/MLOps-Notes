@@ -226,4 +226,20 @@ And then after that is done, you say, great, let's go ahead and merge it to <i>p
   ````
   runtime: python38
   ````
+  
+  > <i><b>cloudbuild.yaml</b></i>. Holds the <i>Google Cloud Build</i> (or similar) deployment configuration.
+  
+````
+  steps:
+- name: "gcr.io/cloud-builders/gcloud"
+  args: ["app", "deploy"]
+timeout: "1600s"
+````
+  
+   > <i><b>requirements.txt</b></i>. Hold the package information for the project.
+  
+  ````
+  flask
+  ````
+  
 </ul></p>
