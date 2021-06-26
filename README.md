@@ -217,7 +217,6 @@ And then after that is done, you say, great, let's go ahead and merge it to <i>p
 <ul>
   <li>Project itself (<i>Flask</i> application, or similar).</li>
   <li><i>app.yaml</i>.</li>
-  <li><i>app.yaml</i>.</li>
-  <li><i>cloudbuild.yaml</i></li>
-  <li>requirements.txt</li>
+  <li><i>cloudbuild.yaml</i>.</li>
+  <li><i>requirements.txt</i>.</li>
 </ul></p>
