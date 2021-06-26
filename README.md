@@ -219,4 +219,10 @@ And then after that is done, you say, great, let's go ahead and merge it to <i>p
   <li><i>app.yaml</i>.</li>
   <li><i>cloudbuild.yaml</i>.</li>
   <li><i>requirements.txt</i>.</li>
+  The examples of these files are represented below:
+  > <i><b>app.yaml</b></i>. Holds <i>Google App Engine</i> (or similar) configuration data.
+  
+  ````
+  runtime: python38
+  ````
 </ul></p>
