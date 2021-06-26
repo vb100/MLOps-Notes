@@ -212,7 +212,7 @@ You could push your code into a <i>development</i> branch. And then when you are
 And then after that is done, you say, great, let's go ahead and merge it to <i>production</i> and it could go directly into production. 
   </p>
   
-  <p>there are four main parts of a simple Continuous Delivery (CD) project:
+  <p>There are four main parts of a simple Continuous Delivery (CD) project:
 
 <ul>
   <li>Project itself (<i>Flask</i> application, or similar.</li>
