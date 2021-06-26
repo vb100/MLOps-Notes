@@ -211,3 +211,13 @@ For example, you could have a <i>development</i> branch. You could have a <i>sta
 You could push your code into a <i>development</i> branch. And then when you are ready to test a change, that would be something that would go to <i>production</i> later, you can merge it into the <i>staging</i> branch. It will automatically go through <i>lint</i> code, <i>test</i> your code, <i>deploy</i> it to your <i>staging environment</i>, you could then do a very extensive <b>load test</b> to verify that your web application could scale to 100,000 users.<br>
 And then after that is done, you say, great, let's go ahead and merge it to <i>production</i> and it could go directly into production. 
   </p>
+  
+  <p>there are four main parts of a simple Continuous Delivery (CD) project:
+
+<ul>
+  <li>Project itself (<i>Flask</i> application, or similar.</li>
+  <li><i>app.yaml</i>.</li>
+  <li><i>app.yaml</i>.</li>
+  <li><i>cloudbuild.yaml</i></li>
+  <li>requirements.txt</li>
+</ul></p>
