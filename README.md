@@ -267,3 +267,13 @@ if __name__ == '__main__':
   ````
   
 </ul></p>
+
+<h2>Cloud Computing Service Models</h2>
+
+<p>
+There are many different types of cloud service models. The most popular of these are described in a list below.
+<ul>
+  <li><b>SaaS</b> (<i>Software as a Service</i>.<br> A good example of this could be <i>Gmail</i>, where you do not have to host your own web server that handles the mail and provide it to clients. You can sign up for an account and get that service. There are also other formats how <i>SaaS</i> can be look like. And these often take place of things like monitoring. A good example of this could be <i>Splunk</i>, or <i>DataDog</i>, or any other large scale IPO company. They build services so that you do not have to provide those services to your company.</li>
+  <li><b>PaaS</b> (<i>Platform as a Service</i>).<br>This is about abstracting away the infrastructure. So the application developer focus on building applications</li>
+</ul>
+</p>
