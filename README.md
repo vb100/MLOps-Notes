@@ -284,7 +284,7 @@ There are many different types of cloud service models. The most popular of thes
 <h2>Cloud Computing Economics</h2>
 <h3>Key Points and Definitions</h3>
 <ul>
-  <li><b>Elasticity</b>.<br>Elasticity is the ability to expand a contract according to the demand.</li>
+  <li><b>Elasticity</b>.<br>Elasticity is the ability to expand a contract according to the demand. That is mean that, your company has some web servers and if the traffic goes up, you can respond by automatically getting a new VM (or two, or more) and you can respond to that traffic. Likewise, if the traffic goes down, you can put away those VMs and you can make them go into a resource where you do not have to physically purchase it.</li>
   <li><b>Availability</b>.<br>Solves the question <i>can you respond to a request? Do you have enough capacity?</i></li>
   <li><b>Self-service</b><br>A self-service means that you can procure things yourself. You do not need to go through an IT procurement process. You can put a credit card and launch a VM.</li>
   <li><b>Reduced complexity</b>.<br>Because the cloud provider is handling a lot of lower level details like networking or security in a data center, you have less complexity for your company to deal with.</li>
