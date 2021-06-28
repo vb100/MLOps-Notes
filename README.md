@@ -52,6 +52,18 @@
   <li><b>[2] </b><a href="https://www.amazon.com/Engineering-MLOps-Rapidly-production-ready-learning/dp/1800562888">Book: Engineering MLOPs. Rapidly build, test, and manage production-ready machine learning life cycles at scale. Written by Emmanuel Raj.</a> <i>2021</i>.</li>
 </ul>
 
+<h2>DevOps</h2>
+<p>Main Key Terms of DevOps are listed below.
+<ul>
+  <li>Continuous Integration.</li>
+  <li>Continuous Delivery.</li>
+  <li>Microservices (smaller version of an application that is specialized to serve one particular purpose).</li>
+  <li>Infrastructure as Code (<i>IaC</i>, defining what your infrastructure will do and checking that into your source control repository).</li>
+  <li>Monitoring and Logging.</li>
+  <li>Communication and Collaboration.</li>
+</ul>
+</p>
+
 ---
 
 <h2>Python Project Structure for MLOps</h2>
