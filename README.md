@@ -47,7 +47,7 @@
   </p>
 
 <h2>DevOps</h2>
-<p>Main Key Terms of DevOps are listed below.
+<p>DevOps is a practice that increase a velocity of your team. Main Key Terms of DevOps are listed below.
 <ul>
   <li>Continuous Integration.</li>
   <li>Continuous Delivery.</li>
