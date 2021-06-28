@@ -280,3 +280,15 @@ There are many different types of cloud service models. The most popular of thes
   <li><b>Serverless</b>.<br>Very similar as <i>PaaS</i>, with one exception: it is really based around a function. Sou you could also call as <i>Serverless <b>FaaS</b></i>, or <i>Function as a Service</i>. A reason of this is a different paradigm of developing software. It is basically about piece of logic. And this piece of logic, you put somewhere in the cloud and you hook it up to an event. Serverless is a way of abstracting the business logic into a unit of work and then applying that, wherever you need. Example: <i>AWS Lambda</i>.</li>
 </ul>
 </p>
+
+<h2>Cloud Computing Economics</h2>
+<h3>Key Points and Definitions</h3>
+<ul>
+  <li><b>Elasticity</b>.<br>Elasticity is the ability to expand a contract according to the demand.</li>
+  <li><b>Availability</b>.<br>Solves the question <i>can you respond to a request? Do you have enough capacity?</i></li>
+  <li><b>Self-service</b><br>A self-service means that you can procure things yourself. You do not need to go through an IT procurement process. You can put a credit card and launch a VM.</li>
+  <li><b>Reduced complexity</b>.<br>Because the cloud provider is handling a lot of lower level details like networking or security in a data center, you have less complexity for your company to deal with.</li>
+  <li><b>Total Cost of Ownership (TCO)</b>.<br>Asking to questions: <i>What is the cost for a five year period you are spending on software and IT, and salary versus the cost you are paying by renting these capacity?</i> Often times, it is the case that the total cost of ownership when you are using cloud resources is much lower than your own physical data center.</li>
+  <li><b>Operational resilience</b>.<br>Asking the question: <i>Can your company withstand a natural disaster?</i> When you use the cloud, they have so much resilience built in. You get this as part of your relationship with the cloud vendor.</li>
+  <li><b>Business agility</b>.<br>It is really easy to lose sight of the fact that your company does a specific thing. It is often not anything to do with infrastracture for computing. By leveraging the growing number of services that come with the cloud providers, you can focus your company on building things quicker and responding to the customer needs.</li>
+  </ul>
