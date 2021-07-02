@@ -355,5 +355,5 @@ def divide(x: int, y: int) -> float:
 		return 'Error. Numbers must not equal to zero.'
 ````
     
-A lot of of us for the same purpose test their code just by putting print statements and occasionally run the code. For example, just like for this <code>add()</code> function. You can see that the output as <code>15</code>, and this is looking good. 
+A lot of of us for the same purpose test their code just by putting print statements and occasionally run the code. For example, just like for this <code>add(9, 6)</code> function. You can see that the output as <code>15</code>, and this is looking good. 
   </p>
