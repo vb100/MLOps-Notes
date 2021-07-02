@@ -331,7 +331,7 @@ So in this section I will cover the main principles about built-in unit testing 
 <br>
 In this example we will work with <i>app.py</i> file, the code is represented below:
 
-````
+```` { .py }
 # Function to add numbers
 def add(x: int, y: int) -> int:
 	return x + y
@@ -345,11 +345,14 @@ def substract(x: int, y: int) -> int:
 # Function to multiply numbers
 def multiply(x: int, y: int) -> int:
 	return x * y
-	
+
 
 # Function to divide numbers
 def divide(x: int, y: int) -> float:
-	return x / y
+	if (x != 0) and (y != 0): 
+		return x / y
+	else:
+		return 'Error. Numbers must not equal to zero.'
 ````
     
 A lot of of us for the same purpose test their code just by putting print statements and occasionally run the code. For example, just like for this <code>add()</code> function. You can see that the output as <code>15</code>, and this is looking good. 
