@@ -336,8 +336,8 @@ def add(x: int, y: int) -> int:
 	return x + y
 
 
-# Function to substract numbers
-def substract(x: int, y: int) -> int:
+# Function to subtract numbers
+def subtract(x: int, y: int) -> int:
 	return x - y
 
 
