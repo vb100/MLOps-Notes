@@ -360,4 +360,6 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 > <h4>Step #1. Create a test module</h4>
 > <p>For this I we will create a new Python file with name <i>test_calc.py</i>.<br>
 > 
-> Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our > test file as <i>test_calc.py</i></p>
+> Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our  test file as <i>test_calc.py</i>.<br>
+	> Firsty, we need to import <b>unittest</b> module, it is a standard Python library, so non need to install anything.
+> </p>
