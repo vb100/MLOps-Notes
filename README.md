@@ -312,7 +312,7 @@ There are many different types of cloud service models. The most popular of thes
   <li>Write tests</li>
     <li>Setup tests</li>
     <li>Best practices</li>
-   </ul>
+   </ul><br>
     
 If you not currently test your codes then it is definitely something that you are going to learn and start adding it to your projects. I guess a lot of you have heard about testing but might not know exactly what is it.<br>
 
@@ -327,7 +327,30 @@ For example, if you update a function in your project, those changes may have ac
 Good unit test will make sure that everything is still working as it should. <br>
     
 So in this section I will cover the main principles about built-in unit testing module.<br>
+
+<br>
+In this example we will work with <i>app.py</i> file, the code is represented below:
+
+````
+# Function to add numbers
+def add(x: int, y: int) -> int:
+	return x + y
+
+
+# Function to substract numbers
+def substract(x: int, y: int) -> int:
+	return x - y
+
+
+# Function to multiply numbers
+def multiply(x: int, y: int) -> int:
+	return x * y
+	
+
+# Function to divide numbers
+def divide(x: int, y: int) -> float:
+	return x / y
+````
     
 A lot of of us for the same purpose test their code just by putting print statements and occasionally run the code. For example, just like for this <code>add()</code> function. You can see that the output as <code>15</code>, and this is looking good. 
-  
   </p>
