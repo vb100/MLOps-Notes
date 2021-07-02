@@ -450,6 +450,9 @@ if __name__ == '__main__':
 
 > <p>After run it, we still see that it was only one test. That is why these four <code>assert</code> methods here are just within this single test method <code>test_add</code>.</p>
 
+> <h4>Step #8. Add More Test Methods</h4>
+> <p>In order to add more tests, we need to add more test methods in <code>TestCalc</code> class. So, let’s test our rest calculation functions from the application code <i>app.py</i>. At the very beginning, just copy and paste <code>test_add</code> method as many times as number of functions we want to tests. In our example, 3 more times, for <code>subtract()</code>, <code>multiply()</code>, and <code>divide()</code> functions.</p>
+
 <h2>Containers</h2>
 
 | Containers | Virtual Machines |
