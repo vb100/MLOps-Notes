@@ -369,3 +369,6 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 
 > <h4>Step #3. Create a test class</h4>
 > <p>Now we need to create some testing cases for the code we want to test. In order to create these test cases, we need to create a test class that inherit from <code>unittest</code> <code>TestCase</code>. To do this, we first going to create a class, we will call this class as <code>TestCalc()</code>. Inside this class we set the inheritence as an argument <code>unittest.TestCase</code>.</p>
+
+> <h4>Step #4. Create a Class test method</h4>
+> <p>Now, we are able to write our first test. To do it, we will write a method. Method must to start with <code>test_</code>. This naming convention is required so that when we run this the system knows which method represent tests.</p>
