@@ -416,4 +416,4 @@ if __name__ == '__main__':
 	unittest.main()
 ````
 	
-> <p>Now and run the test code in simple way: <i>python test_app.py</i>.</p>
+> <p>Now and run the test code in simple way: <i>python test_app.py</i>. This is how we can run our test directly.</p>
