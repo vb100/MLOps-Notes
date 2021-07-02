@@ -451,7 +451,45 @@ if __name__ == '__main__':
 > <p>After run it, we still see that it was only one test. That is why these four <code>assert</code> methods here are just within this single test method <code>test_add</code>.</p>
 
 > <h4>Step #8. Add More Test Methods</h4>
-> <p>In order to add more tests, we need to add more test methods in <code>TestCalc</code> class. So, let’s test our rest calculation functions from the application code <i>app.py</i>. At the very beginning, just copy and paste <code>test_add</code> method as many times as number of functions we want to tests. In our example, 3 more times, for <code>subtract()</code>, <code>multiply()</code>, and <code>divide()</code> functions.</p>
+> <p>In order to add more tests, we need to add more test methods in <code>TestCalc</code> class. So, let’s test our rest calculation functions from the application code <i>app.py</i>. At the very beginning, just copy and paste <code>test_add</code> method as many times as number of functions we want to tests. In our example, 3 more times, for <code>subtract()</code>, <code>multiply()</code>, and <code>divide()</code> functions. So now, our test code would be like this:</p>
+
+```` py
+import unittest
+import app
+
+
+class TestCalc(unittest.TestCase):
+
+	def test_add(self):
+		self.assertEqual(app.add(9, 6), 15)
+		self.assertEqual(app.add(-1, 1), 0)
+		self.assertEqual(app.add(100, 1), 101)
+		self.assertEqual(app.add(-20, -80), -100)
+
+
+	def test_subtract(self):
+		self.assertEqual(app.subtract(9, 6), 3)
+		self.assertEqual(app.subtract(-1, 1), -2)
+		self.assertEqual(app.subtract(100, 1), 99)
+		self.assertEqual(app.subtract(-20, -80), 60)
+
+	def test_multiply(self):
+		self.assertEqual(app.multiply(3, 2), 6)
+		self.assertEqual(app.multiply(-1, 5), -5)
+		self.assertEqual(app.multiply(20, 1), 20)
+		self.assertEqual(app.multiply(2, 4), 8)
+
+
+	def test_divide(self):
+		self.assertEqual(app.divide(9, 3), 3)
+		self.assertEqual(app.divide(-1, 1), -1)
+		self.assertEqual(app.divide(4, 4), 1)
+		self.assertEqual(app.divide(1000, 100), 10)
+
+
+if __name__ == '__main__':
+	unittest.main()
+````
 
 <h2>Containers</h2>
 
