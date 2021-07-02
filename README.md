@@ -425,6 +425,27 @@ if __name__ == '__main__':
 <img src="images/screen_unittest_fail.png" alt="Unit Test Fail example" width=500px>
 </center>
 
+> <h4>Test Edge Cases</h4>
+> <p>So far we have tested only one scenario: <i>9 + 6 = 15</i>. In real life, we should be expect to face with much more extreme situation. First of all, drop the <code>result</code> variable and incorporate its arguments in <code>self</code> variable below directly. That will be easy to leverage multiple tests. And now we can experiment with more extreme scenarios line after line. The completed code is represented below.</p>
+
+```` py
+import unittest
+import app
+
+
+class TestCalc(unittest.TestCase):
+
+	def test_add(self):
+		self.assertEqual(app.add(9, 6), 15)
+		self.assertEqual(app.add(-1, 1), 0)
+		self.assertEqual(app.add(100, 1), 101)
+		self.assertEqual(app.add(-20, -80), -100)
+
+
+if __name__ == '__main__':
+	unittest.main()
+````
+
 <h2>Containers</h2>
 
 | Containers | Virtual Machines |
