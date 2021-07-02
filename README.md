@@ -256,7 +256,7 @@ timeout: "1600s"
   
   > <i><b>app.py</b></i>. Flask application source code.
   
-  ````
+  ```` py
 from flask import Flask
 from flask import jsonify
 app = Flask(__name__)
