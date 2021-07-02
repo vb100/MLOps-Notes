@@ -138,7 +138,7 @@ We do not specify versions of these packages assuming the we will use the newest
   
   The example of <i>test_hello.py</i> can be the following code:
   
-````
+```` py
 from hello import add
   
 def test_add()
