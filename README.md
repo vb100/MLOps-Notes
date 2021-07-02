@@ -303,3 +303,31 @@ There are many different types of cloud service models. The most popular of thes
   <li><b>Total Cost of Ownership (TCO)</b>.<br>Asking to questions: <i>What is the cost for a five year period you are spending on software and IT, and salary versus the cost you are paying by renting these capacity?</i> Often times, it is the case that the total cost of ownership when you are using cloud resources is much lower than your own physical data center.</li>
   <li><b>Operational resilience</b>.<br>Asking the question: <i>Can your company withstand a natural disaster?</i> When you use the cloud, they have so much resilience built in. You get this as part of your relationship with the cloud vendor.</li>
   <li><b>Business agility</b>.<br>It is really easy to lose sight of the fact that your company does a specific thing. It is often not anything to do with infrastracture for computing. By leveraging the growing number of services that come with the cloud providers, you can focus your company on building things quicker and responding to the customer needs.</li>
+  
+  <h2>Python Project Testing</h2>
+  <h3>Unit testing</h3>
+  <b>Quick introduction into Unit Testing, main keypoints and usage</b>
+  <p>In this section we will go cover following steps in domain of <i>Unit testing</i>.
+  <ul>
+  <li>Write tests</li>
+    <li>Setup tests</li>
+    <li>Best practices</li>
+   </ul>
+    
+If you not currently test your codes then it is definitely something that you are going to learn and start adding it to your projects. I guess a lot of you have heard about testing but might not know exactly what is it.<br>
+
+Testing your code is the most exciting thing to do but there is a reason that most companies and teams require their code to be tested. If you want to take a responsible role on big projects, then you are going to need to know how to test.<br>
+    
+And reason for that is that it is going to save you a lot of time and headache in your daily working routine.<br>
+    
+When you write good tests for you code it gives you more confidence that your updates and refactoring do not have any unexpected impact or break your code anyway. <br>
+    
+For example, if you update a function in your project, those changes may have actually broken several sections of your code even if that function itself is still working. <br>
+    
+Good unit test will make sure that everything is still working as it should. <br>
+    
+So in this section I will cover the main principles about built-in unit testing module.<br>
+    
+A lot of of us for the same purpose test their code just by putting print statements and occasionally run the code. For example, just like for this <code>add()</code> function. You can see that the output as <code>15</code>, and this is looking good. 
+  
+  </p>
