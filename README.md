@@ -448,7 +448,7 @@ if __name__ == '__main__':
 	unittest.main()
 ````
 
-> <p>After run it, we still see that it was only one test. That is why these four <code>assert</code> methods here are just within this single test method <code>test_add<code>.</p>
+> <p>After run it, we still see that it was only one test. That is why these four <code>assert</code> methods here are just within this single test method <code>test_add</code>.</p>
 
 <h2>Containers</h2>
 
