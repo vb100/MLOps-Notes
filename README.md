@@ -395,7 +395,7 @@ class TestCalc(unittest.TestCase):
 	
 | <img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal"> |
 | ------- |
-	| Output of First Unit Test |
+| Output of First Unit Test |
 	
 </center>
 
