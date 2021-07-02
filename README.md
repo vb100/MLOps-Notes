@@ -422,7 +422,7 @@ if __name__ == '__main__':
 
 | Containers | Virtual Machines |
 | ---------- | ---------- | 
-| Build Cloud-native applications. | >Used for monolithic applications |
+| Build Cloud-native applications. | Used for monolithic applications |
 | DevOps best practice. | Runs an OS inside another OS |
 | Include runtime with code. | Launch time can be anywhere between seconds and minutes |
 | Launch time in miliseconds. | |
