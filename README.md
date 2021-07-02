@@ -418,6 +418,9 @@ if __name__ == '__main__':
 	
 > <p>Now and run the test code in simple way: <i>python test_app.py</i>. This is how we can run our test directly.</p>
 
+> <h4>Step #6. When our test fails</h4>
+> <p>Let’s simulate the situation if our test fails. Let’s change expecting value from <code>15</code> to <code>11</code>. First of all, we can see the letter <i><b>F</b></i> which stands for <b>Fail</b>. And also we can see that the test fails with assertion error, which says us that 15 is not equal to 11. The screen representing this situation is below.</p>
+
 <h2>Containers</h2>
 
 | Containers | Virtual Machines |
