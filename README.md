@@ -357,7 +357,7 @@ def divide(x: int, y: int) -> float:
 A lot of of us for the same purpose test their code just by putting <code>print</code> statements and occasionally run the code. For example, just like for this <code>print(add(9, 6))</code> function. You can see that the output as <code>15</code>, and this is looking good. On the other hand, testing you code this way is not easy to automate and it is also hard to maintain. Also for testing a lot of different functions there is no way for us to see at a glance what failed and what succeeded. That is Unit testing comes in. 
   </p>
   
-<h4>Step #1. Create a test module</h4>
-<p>For this I we will create a new Python file with name <i>test_calc.py</i>.<br>
-
-Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our test file as <i>test_calc.py</i></p>
+> <h4>Step #1. Create a test module</h4>
+> <p>For this I we will create a new Python file with name <i>test_calc.py</i>.<br>
+> 
+> Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our > test file as <i>test_calc.py</i></p>
