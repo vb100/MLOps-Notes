@@ -387,6 +387,28 @@ class TestCalc(unittest.TestCase):
 		result = calc.add(9, 6)
 		self.assertEqual(result, 15)
 ````
-> <h4>Step #5. Run our first Unit test</h4>
+> <h4>Step #5.1. Run our first Unit test (without <code>__main__</code> condition</h4>
 > <p>We can run our test by using terminal. Open it and navigate to your project directory, where application and test Python files are stored. If you run your code by typing <i>python test_app.py</i>, look, it return nothing.<br>
-> Instead we need to run unit tests as our main module and pass in <code>test_app</code>. We can do that by typing <i>python -m unittest test_app.py</i></p>
+> Instead we need to run unit tests as our main module and pass in <code>test_app</code>. We can do that by typing <i>python -m unittest test_app.py</i><br>
+	> We can see that when we run this, the output comes with the dot (<i>.</i>). It says - <i>one run, one test</i>. And the the bottom it says, that everything passed sucesfully.</p>
+
+> <h4>Step #5.1. Run our first Unit test (more robust way with <code>__main__</code> condition</h4>
+> <p>Just come down in our code and we can say: <code>if __name__ == ‘__main__’</code> then within this condition we can just say <code>unittest.main()</code>. Now our Python code for testing should be look like:</p>
+
+```` py
+import unittest
+import app
+
+
+class TestCalc(unittest.TestCase):
+
+	def test_add(self):
+		result = app.add(9, 6)
+		self.assertEqual(result, 15)
+
+
+if __name__ == '__main__':
+	unittest.main()
+````
+	
+> <p>Now and run the test code in simple way: <i>python test_app.py</i>.</p>
