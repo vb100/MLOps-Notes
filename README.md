@@ -395,9 +395,9 @@ class TestCalc(unittest.TestCase):
 	
 | <img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal"> |
 | ------- |
-	| <center>Output of First Unit Test</center> |
+| <center>Output of First Unit Test </center> |
 	
-	</center>
+</center>
 
 > We can see that when we run this, the output comes with the dot (<i>.</i>). It says - <i>one run, one test</i>. And the the bottom it says, that everything passed sucesfully.</p>
 
