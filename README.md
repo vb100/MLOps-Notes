@@ -358,14 +358,14 @@ A lot of of us for the same purpose test their code just by putting <code>print<
   </p>
   
 > <h4>Step #1. Create a test module</h4>
-> <p>For this I we will create a new Python file with name <i>test_calc.py</i>.<br>
+> <p>For this I we will create a new Python file with name <i>test_app.py</i>.<br>
 > 
-> Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our  test file as <i>test_calc.py</i>.<br>
+> Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our  test file as <i>test_app.py</i>.<br>
 	Firsty, we need to import <a href = "https://docs.python.org/3/library/unittest.html"><b>unittest</b></a> module, it is a standard Python library, so no need to install anything. Just type <code>pip install unittest</code>.
 > </p><br>
 
 > <h4>Step #2. Import the code as a module which we want to test</h4>
-> <p>To make it simply, the actual file <i>calc.py</i> is stored in the same directory as <i>test_calc.py</i>, so we can simply type <code>import calc</code>.</p>
+> <p>To make it simply, the actual file <i>app.py</i> is stored in the same directory as <i>test_app.py</i>, so we can simply type <code>import app</code>.</p>
 
 > <h4>Step #3. Create a test class</h4>
 > <p>Now we need to create some testing cases for the code we want to test. In order to create these test cases, we need to create a test class that inherit from <code>unittest</code> <code>TestCase</code>. To do this, we first going to create a class, we will call this class as <code>TestCalc()</code>. Inside this class we set the inheritence as an argument <code>unittest.TestCase</code>.</p>
@@ -373,12 +373,12 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 > <h4>Step #4. Create a Class test method</h4>
 > <p>Now, we are able to write our first test. To do it, we will write a method. Method must to start with <code>test_</code>. This naming convention is required so that when we run this the system knows which method represent tests.</p>
 > <p>First, we can test the <code>add()</code> function. Let’s write del <code>test_add</code>, and as always in OOP programming, the first argument for method need to be <code>self</code>. And now within out method we can write a test. Since we inherited from <code>unittest</code> a <code>TestCase</code>, we have access to all these <a href = "https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug">assert methods</a>.</p>
-> <p>We are going to use assert equals to test <code>add()</code> function.<br>We can write is as simple as via the variable <code>result</code>: <code>result = calc.add(10, 5)</code>.<br>Then it is a good time to use assert method <code>asertEqual</code> which will check if our <code>result</code> variable matches the conditions, so let's write: <code>self.assertEqual(result, 15)</code>.</p>
+> <p>We are going to use assert equals to test <code>add()</code> function.<br>We can write is as simple as via the variable <code>result</code>: <code>result = app.add(10, 5)</code>.<br>Then it is a good time to use assert method <code>asertEqual</code> which will check if our <code>result</code> variable matches the conditions, so let's write: <code>self.assertEqual(result, 15)</code>.</p>
 > <p>At this phase, we should have this small Python script prepared:</p>
 
 ```` py
 import unittest
-import calc
+import app
 
 
 class TestCalc(unittest.TestCase):
@@ -388,5 +388,5 @@ class TestCalc(unittest.TestCase):
 		self.assertEqual(result, 15)
 ````
 > <h4>Step #5. Run our first Unit test</h4>
-> <p>We can run our test by using terminal. Open it and navigate to your project directory, where application and test Python files are stored. If you run your code by typing <i>python test_calc.py</i>, look, it return nothing.<br>
-> Instead we need to run unit tests as our main module and pass in <code>test_calc</code>. We can do that by typing <i>python -m unittest test_calc.py</i></p>
+> <p>We can run our test by using terminal. Open it and navigate to your project directory, where application and test Python files are stored. If you run your code by typing <i>python test_app.py</i>, look, it return nothing.<br>
+> Instead we need to run unit tests as our main module and pass in <code>test_calc</code>. We can do that by typing <i>python -m unittest test_app.py</i></p>
