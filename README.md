@@ -397,6 +397,10 @@ class TestCalc(unittest.TestCase):
 	</td></tr>
 </table>
 
+<p style="text-align:center;">
+<img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal">	
+</p>
+
 > We can see that when we run this, the output comes with the dot (<i>.</i>). It says - <i>one run, one test</i>. And the the bottom it says, that everything passed sucesfully.</p>
 
 > <h4>Step #5.1. Run our first Unit test (more robust way with <code>__main__</code> condition</h4>
