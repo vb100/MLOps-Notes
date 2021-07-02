@@ -328,7 +328,6 @@ Good unit test will make sure that everything is still working as it should. <br
     
 So in this section I will cover the main principles about built-in unit testing module.<br>
 
-<br>
 In this example we will work with <i>app.py</i> file, the code is represented below:
 
 ```` py
