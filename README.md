@@ -393,7 +393,7 @@ class TestCalc(unittest.TestCase):
 	
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 <tr><td align "center">
-<img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal" width="auto" align="center">
+<img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal">
 	</td></tr>
 </table>
 
