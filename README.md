@@ -392,7 +392,11 @@ class TestCalc(unittest.TestCase):
 > Instead we need to run unit tests as our main module and pass in <code>test_app</code>. We can do that by typing <i>python -m unittest test_app.py</i> The output is represented on the screen below.
 
 <center>
+	
 | <img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal"> |
+| ------- |
+| Output of First Unit Test |
+	
 	</center>
 
 > We can see that when we run this, the output comes with the dot (<i>.</i>). It says - <i>one run, one test</i>. And the the bottom it says, that everything passed sucesfully.</p>
