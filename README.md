@@ -366,3 +366,6 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 
 > <h4>Step #2. Import the code as a module which we want to test</h4>
 > <p>To make it simply, the actual file <i>calc.py</i> is stored in the same directory as <i>test_calc.py</i>, so we can simply type <code>import calc</code>.</p>
+
+> <h4>Step #3. Create a test class</h4>
+> <p>Now we need to create some testing cases for the code we want to test. In order to create these test cases, we need to create a test class that inherit from <code>unittest</code> <code>TestCase</code>. To do this, we first going to create a class, we will call this class as <code>TestCalc()</code>. Inside this class we set the inheritence as an argument <code>unittest.TestCase</code>.</p>
