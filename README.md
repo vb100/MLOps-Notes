@@ -389,7 +389,8 @@ class TestCalc(unittest.TestCase):
 ````
 > <h4>Step #5.1. Run our first Unit test (without <code>__main__</code> condition</h4>
 > <p>We can run our test by using terminal. Open it and navigate to your project directory, where application and test Python files are stored. If you run your code by typing <i>python test_app.py</i>, look, it return nothing.<br>
-> Instead we need to run unit tests as our main module and pass in <code>test_app</code>. We can do that by typing <i>python -m unittest test_app.py</i><br>
+> Instead we need to run unit tests as our main module and pass in <code>test_app</code>. We can do that by typing <i>python -m unittest test_app.py</i> The output is represented on the screen below.
+<img src="images/screen_unittest_01.png" alt="Unit Test Output in Terminal" width="auto">
 > We can see that when we run this, the output comes with the dot (<i>.</i>). It says - <i>one run, one test</i>. And the the bottom it says, that everything passed sucesfully.</p>
 
 > <h4>Step #5.1. Run our first Unit test (more robust way with <code>__main__</code> condition</h4>
