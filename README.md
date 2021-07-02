@@ -361,5 +361,5 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 > <p>For this I we will create a new Python file with name <i>test_calc.py</i>.<br>
 > 
 > Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our  test file as <i>test_calc.py</i>.<br>
-	Firsty, we need to import <a href = "https://docs.python.org/3/library/unittest.html"><b>unittest</b></a> module, it is a standard Python library, so non need to install anything.
+	Firsty, we need to import <a href = "https://docs.python.org/3/library/unittest.html"><b>unittest</b></a> module, it is a standard Python library, so non need to install anything. Just type <code>pip install unittest</code>.
 > </p>
