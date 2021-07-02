@@ -417,3 +417,13 @@ if __name__ == '__main__':
 ````
 	
 > <p>Now and run the test code in simple way: <i>python test_app.py</i>. This is how we can run our test directly.</p>
+
+<h2>Containers</h2>
+
+| Containers | Virtual Machines |
+| ---------- | ---------- | 
+| <li>Build Cloud-native applications.</li> | <li>Used for monolithic applications</li> |
+| <li>DevOps best practice.</li> | <li>Runs an OS inside another OS</li> |
+| <li>Include runtime with code.</li> | <li>Launch time can be anywhere between seconds and minutes</li> |
+| <li>Launch time in miliseconds.</li> | |
+</ul>
