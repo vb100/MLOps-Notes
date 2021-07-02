@@ -362,7 +362,7 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 > 
 > Before writing our test, important to know, that before writing our tests we need to call our file with tests underscore something (<i>test_</i>). So we name our  test file as <i>test_app.py</i>.<br>
 	Firsty, we need to import <a href = "https://docs.python.org/3/library/unittest.html"><b>unittest</b></a> module, it is a standard Python library, so no need to install anything. Just type <code>pip install unittest</code>.
-> </p><br>
+> </p>
 
 > <h4>Step #2. Import the code as a module which we want to test</h4>
 > <p>To make it simply, the actual file <i>app.py</i> is stored in the same directory as <i>test_app.py</i>, so we can simply type <code>import app</code>.</p>
