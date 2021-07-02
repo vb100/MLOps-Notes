@@ -372,4 +372,4 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 
 > <h4>Step #4. Create a Class test method</h4>
 > <p>Now, we are able to write our first test. To do it, we will write a method. Method must to start with <code>test_</code>. This naming convention is required so that when we run this the system knows which method represent tests.</p>
-> <p>First, we can test the <code>add()</code> function. Let’s write del <code>test_add</code>, and as always in OOP programming, the first argument for method need to be <code>self</code>. And now within out method we can write a test. Since we inherited from <code>unittest</code> a <code>TestCase</code>, we have access to all these assert methods.</p>
+> <p>First, we can test the <code>add()</code> function. Let’s write del <code>test_add</code>, and as always in OOP programming, the first argument for method need to be <code>self</code>. And now within out method we can write a test. Since we inherited from <code>unittest</code> a <code>TestCase</code>, we have access to all these <a href = "https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug">assert methods</a>.</p>
