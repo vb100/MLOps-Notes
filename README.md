@@ -389,4 +389,4 @@ class TestCalc(unittest.TestCase):
 ````
 > <h4>Step #5. Run our first Unit test</h4>
 > <p>We can run our test by using terminal. Open it and navigate to your project directory, where application and test Python files are stored. If you run your code by typing <i>python test_app.py</i>, look, it return nothing.<br>
-> Instead we need to run unit tests as our main module and pass in <code>test_calc</code>. We can do that by typing <i>python -m unittest test_app.py</i></p>
+> Instead we need to run unit tests as our main module and pass in <code>test_app</code>. We can do that by typing <i>python -m unittest test_app.py</i></p>
