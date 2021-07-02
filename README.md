@@ -375,6 +375,7 @@ A lot of of us for the same purpose test their code just by putting <code>print<
 > <p>First, we can test the <code>add()</code> function. Let’s write del <code>test_add</code>, and as always in OOP programming, the first argument for method need to be <code>self</code>. And now within out method we can write a test. Since we inherited from <code>unittest</code> a <code>TestCase</code>, we have access to all these <a href = "https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug">assert methods</a>.</p>
 > <p>We are going to use assert equals to test <code>add()</code> function.<br>We can write is as simple as via the variable <code>result</code>: <code>result = calc.add(10, 5)</code>.<br>Then it is a good time to use assert method <code>asertEqual</code> which will check if our <code>result</code> variable matches the conditions, so let's write: <code>self.assertEqual(result, 15)</code>.</p>
 > <p>At this phase, we should have this small Python script prepared:
+
 > ```` py
 import unittest
 import calc
