@@ -331,7 +331,7 @@ So in this section I will cover the main principles about built-in unit testing 
 <br>
 In this example we will work with <i>app.py</i> file, the code is represented below:
 
-```` { .py }
+```` py
 # Function to add numbers
 def add(x: int, y: int) -> int:
 	return x + y
