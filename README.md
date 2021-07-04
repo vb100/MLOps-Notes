@@ -306,6 +306,7 @@ There are many different types of cloud service models. The most popular of thes
   
   <h2>Python Project Testing</h2>
   <h3>Unit testing</h3>
+  <p>Unit testing is a method by which components of source code are tested for robustness with coerced data and usage methods to determine whether the component is fit for the production system.</p>
   <b>Quick introduction into Unit Testing, main keypoints and usage</b>
   <p>In this section we will go cover following steps in domain of <i>Unit testing</i>.
   <ul>
