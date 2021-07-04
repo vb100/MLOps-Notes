@@ -500,3 +500,23 @@ if __name__ == '__main__':
 | DevOps best practice. | Runs an OS inside another OS |
 | Include runtime with code. | Launch time can be anywhere between seconds and minutes |
 | Launch time in miliseconds. | |
+
+<p><b>Docker format containers</b><br>
+It is a flat file that has some key directives inside. Example is below:<br>
+	
+````
+FROM python:3.7.3-stretch
+	
+# Working Directory
+WORKDIR /app
+	
+# Copy source code to working direcyory
+COPY . app.py /app/
+	
+# Install packages from requirement.txt
+RUN pip install --upgrade pip &&\
+    pip install --trusted-host pypi.python.org -r -requirements.txt
+````
+
+In the file above, we inherit from Python 3.7.3, and then assign some directories where to put the code and then install the software inside. This is the file you tell it what operating system code, or the runtime should live inside of your Source Control Project. Launch time can be anywhere from seconds to minutes.
+</p>
