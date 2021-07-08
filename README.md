@@ -64,7 +64,7 @@
 <ul>
   <li><b>[1] </b><a href="https://services.google.com/fh/files/misc/practitioners_guide_to_mlops_whitepaper.pdf">Google MLOps Whitepapers. </a><i>2021</i>.</li>
   <li><b>[2] </b><a href="https://www.amazon.com/Engineering-MLOps-Rapidly-production-ready-learning/dp/1800562888">Book: Engineering MLOPs. Rapidly build, test, and manage production-ready machine learning life cycles at scale. Written by Emmanuel Raj.</a> <i>2021</i>.</li>
-	<li><b>[3] </b><a href="https://www.amazon.com/Engineering-MLOps-Rapidly-production-ready-learning/dp/1800562888">Book: Data Science on AWS. Implementing End-to-End, Continuous AI and Machine Learning Pipelines. Written by Chris Fregly & Antje Barth.</a> <i>2021</i>.</li>
+	<li><b>[3] </b><a href="https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391">Book: Data Science on AWS. Implementing End-to-End, Continuous AI and Machine Learning Pipelines. Written by Chris Fregly & Antje Barth.</a> <i>2021</i>.</li>
 </ul>
 
 <h2>Python Project Structure for MLOps</h2>
@@ -493,6 +493,17 @@ if __name__ == '__main__':
 
 <h2>Containers</h2>
 
+</p>
+<h4>When to use Containers? Top reasons.</h4>
+<ul>
+	<li><b>Cloud-native environments</b>. Often times Containers can be optimal choice because of all the advancements that are happening in the cloud, such as <i>Container Services</i>, where you take a Container, deploy it as a service. This is the simplest possible way to deploy an application.<br>There are many cloud managed Kubernetes services that can take care of things</li>
+	<li><b>Microservices</b>. Microservices are way of solving a problem in a very efficient and simple way where one service does one thing, and it works really well with a container. A Container allows you to basically build something that is reproducible and fits in this microservice workflow.</li>
+	<li><b>DevOps Workflow</b>. One of the best DevOps practices is reproduce the environment as well as the source code. In this case, DevOps allows you to programatically build the Container as well as programatically build-out the source code and deploy it into an ecosystem using <i>IaC</i> (Infrastructure as Code). </li>
+	<li><b>Job Management.</b> A lot of times when you build jobs over and over again, and you are reproducing these jobs, than often times a container-based workflow works very well. That is why many build service companies or <i>SaaS</i> (Software as a Service) companies are using Containers to manage their workloads. </li>
+	<li><b>Portability and Usability</b>. Usability is an another key component. In DevOps and Data Science, are <b>two</b> domains where portability can really pay dividends. For example, if you are data scientist and you have a whole environment that does some <i>ML workflow</i>, and you give someone a source control of it, and inside of that source control repository, there is no way to reproduce a <i>runtime</i>. So, giving them a source code, did not really solve the problem for them. But with the Container, it allows the runtime as well to be included and this is a key takeaway. This runtime, when you are able to package it in your project, it is completely reproducible. </li>
+</ul>
+<p>
+
 | Containers | Virtual Machines |
 | ---------- | ---------- | 
 | Build Cloud-native applications. | Used for monolithic applications |
@@ -519,12 +530,3 @@ RUN pip install --upgrade pip &&\
 
 In the file above, we inherit from Python 3.7.3, and then assign some directories where to put the code and then install the software inside. This is the file you tell it what operating system code, or the runtime should live inside of your Source Control Project. Launch time can be anywhere from seconds to minutes.
 </p>
-<h4>When to use Containers? Top reasons.</h4>
-<ul>
-	<li><b>Cloud-native environments</b>. Often times Containers can be optimal choice because of all the advancements that are happening in the cloud, such as <i>Container Services</i>, where you take a Container, deploy it as a service. This is the simplest possible way to deploy an application.<br>There are many cloud managed Kubernetes services that can take care of things</li>
-	<li><b>Microservices</b>. Microservices are way of solving a problem in a very efficient and simple way where one service does one thing, and it works really well with a container. A Container allows you to basically build something that is reproducible and fits in this microservice workflow.</li>
-	<li><b>DevOps Workflow</b>. One of the best DevOps practices is reproduce the environment as well as the source code. In this case, DevOps allows you to programatically build the Container as well as programatically build-out the source code and deploy it into an ecosystem using <i>IaC</i> (Infrastructure as Code). </li>
-	<li><b>Job Management.</b> A lot of times when you build jobs over and over again, and you are reproducing these jobs, than often times a container-based workflow works very well. That is why many build service companies or <i>SaaS</i> (Software as a Service) companies are using Containers to manage their workloads. </li>
-	<li><b>Portability and Usability</b>. Usability is an another key component. In DevOps and Data Science, are <b>two</b> domains where portability can really pay dividends. For example, if you are data scientist and you have a whole environment that does some <i>ML workflow</i>, and you give someone a source control of it, and inside of that source control repository, there is no way to reproduce a <i>runtime</i>. So, giving them a source code, did not really solve the problem for them. But with the Container, it allows the runtime as well to be included and this is a key takeaway. This runtime, when you are able to package it in your project, it is completely reproducible. </li>
-</ul>
-<p></p>
