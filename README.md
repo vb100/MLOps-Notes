@@ -532,12 +532,12 @@ In the file above, we inherit from Python 3.7.3, and then assign some directorie
 </p>
 
 <h2>Dockers</h2>
-<p>There are two main componensts of Docker: <b>Docker Desktop</b> and <b>Docker Hub</b>. Detailes key points for each of them is listed below.<br>
+<p>There are two main componensts of Docker: <b>Docker Desktop</b> and <b>Docker Hub</b>. Detailes key points for each of them is listed below.<br><p>
 	<b>Docker Container</b>
 	<ul>
 		<li>Container Runtime</li>
 		<li>Developer Tools</li>
 		<li>Docker App</li>
 		<li>Kubernetes</li>
-</ul>
+</ul></p>
 </p>
