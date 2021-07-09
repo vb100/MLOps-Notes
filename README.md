@@ -509,9 +509,10 @@ def divide(x: int, y: int) -> float:
 self.assertRaises(ValueError, app.divide, 10, 0)
 ````
 
+> Here we defined, that we are testing <code>ValueError</code> usability within a given function. In <i>test_app.py</i> script, as a parameter to <code>assertRaises</code> we also include the name of testing function (<code>app.divide</code>, do not add any additional brackets here), then sequntialy set values for following arguments <code>x</code> and <code>y</code>, which are <code>10</code> and <code>0</code> in your example. By reading this line, we should understand that we are testing situation where trying to perform mathematical action <code>10 / 0</code>, and except <code>ValueError</code> which will tell us that this action can not be performed. If this error will be delivered, then our test passes; if not, will not passed.
+
 <h2>Containers</h2>
 
-</p>
 <h4>When to use Containers? Top reasons.</h4>
 <ul>
 	<li><b>Cloud-native environments</b>. Often times Containers can be optimal choice because of all the advancements that are happening in the cloud, such as <i>Container Services</i>, where you take a Container, deploy it as a service. This is the simplest possible way to deploy an application.<br>There are many cloud managed Kubernetes services that can take care of things</li>
