@@ -500,10 +500,14 @@ def divide(x: int, y: int) -> float:
 	if y == 0:
 		raise ValueError('We can not divide by zero!')
 	else:
-		return x /y
+		return x / y
 ````
 
-> Here we can see highlighted edge case, where variable <code>y</code> equals to zero. We know that dividing by zero is not possible, and we want to avoid and alert user in such situations. 
+> Here we can see highlighted edge case, where variable <code>y</code> equals to zero. We know that dividing by zero is not possible, and we want to avoid and alert user in such situations. Let's switch to <i>test_app.py</i> and add one more code line in <code>test_divide()</code> method.<br>
+
+```` py
+self.assertRaises(ValueError, app.divide, 10, 0)
+````
 
 <h2>Containers</h2>
 
