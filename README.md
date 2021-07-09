@@ -491,6 +491,20 @@ if __name__ == '__main__':
 	unittest.main()
 ````
 
+> <h4>Step #9. <code>assertRaises</code> testing method</h4>
+> <p>With <code>assertRaises</code> method we will perform testing <code>ValueError</code> in a simple edge case, in <code>divide</code> function. First of all, in order to make our example more easy to understand, let's change <code>divide</code> function in <i>app.py</i> to as represented below:</p>
+
+```` py
+# Function to divide numbers
+def divide(x: int, y: int) -> float:
+	if y == 0:
+		raise ValueError('We can not divide by zero!')
+	else:
+		return x /y
+````
+
+> Here we can see highlighted edge case, where variable <code>y</code> equals to zero. We know that dividing by zero is not possible, and we want to avoid and alert user in such situations. 
+
 <h2>Containers</h2>
 
 </p>
