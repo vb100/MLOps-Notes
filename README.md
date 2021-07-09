@@ -533,7 +533,7 @@ In the file above, we inherit from Python 3.7.3, and then assign some directorie
 
 <h2>Dockers</h2>
 <p>There are two main componensts of Docker: <b>Docker Desktop</b> and <b>Docker Hub</b>. Detailes key points for each of them is listed below.<br><p>
-	<b>Docker Desktop</b>. It is a <i>Local development workflow.</i>
+	<b>Docker Desktop</b>. It is a <i>Local development workflow</i>. The desktop application contains the container runtime which allows containers to execute. The The Docker App itself orchestrates the local development workflow including the ability to use Kubernetes, which is an open source system for managing containerized applications that came out of Google.
 	<ul>
 		<li>Container Runtime</li>
 		<li>Developer Tools</li>
