@@ -530,3 +530,14 @@ RUN pip install --upgrade pip &&\
 
 In the file above, we inherit from Python 3.7.3, and then assign some directories where to put the code and then install the software inside. This is the file you tell it what operating system code, or the runtime should live inside of your Source Control Project. Launch time can be anywhere from seconds to minutes.
 </p>
+
+<h2>Dockers</h2>
+<p>There are two main componensts of Docker: <b>Docker Desktop</b> and <b>Docker Hub</b>. Detailes key points for each of them is listed below.<br>
+	<b>Docker Container</b>
+	<ul>
+		<li>Container Runtime</li>
+		<li>Developer Tools</li>
+		<li>Docker App</li>
+		<li>Kubernetes</li>
+</ul>
+</p>
