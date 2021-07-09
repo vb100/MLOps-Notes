@@ -511,6 +511,10 @@ self.assertRaises(ValueError, app.divide, 10, 0)
 
 > Here we defined, that we are testing <code>ValueError</code> usability within a given function. In <i>test_app.py</i> script, as a parameter to <code>assertRaises</code> we also include the name of testing function (<code>app.divide</code>, do not add any additional brackets here), then sequntialy set values for following arguments <code>x</code> and <code>y</code>, which are <code>10</code> and <code>0</code> in your example. By reading this line, we should understand that we are testing situation where trying to perform mathematical action <code>10 / 0</code>, and except <code>ValueError</code> which will tell us that this action can not be performed. If this error will be delivered, then our test passes; if not, will not passed.
 
+> <h4>Step #10. When <code>assertRaises</code> fails?</h4>
+> When writing <code>assertRaises</code> test, we always should be care that <code>ValueError</code> will be checked in correct conditions. Let's simulate, how bad test is looking like. Let's change the last argument is <code>assertRaises</code> method from <code>0</code> to <code>2</code>. By doing it, we are telling to the system that <i>we are expecting a <code>ValueError</code> by performing 10 / 2.</i> We know that is valid procedure and no any errors in this scenario should be delivered.<b>
+	The <i>unittest</i> module understand it and returns message <i>AssertionError: ValueError not raised by divide</i>. This indicates that our test is wrong and we need to fix it. So, let's change the value of <code>2</code> to <code>0</code> back in <code>assertRaises</code> method.
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
