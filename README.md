@@ -616,7 +616,7 @@ In the file above, we inherit from Python 3.7.3, and then assign some directorie
 
 <h2>Kubernetes</h2>
 <p>
-Kubernetes is a orchestration layer for containers.
+Kubernetes is a orchestration layer for containers (the standard for containers orchestration). It is a useful tool for containerized applications.<br>Many cloud providers supports Kubernetes: <b>AWS</b> via <a href=https://aws.amazon.com/eks/>Amazon EKC</a>. There are many ways to install it. One way is to use <i>Docker Desktop</i>. If you are more advanced user, you can use <code>kubectl</code> command together with <code>curl</code> commands.
 <ul>
 	<li>Powerful orchestration service for containers.</li>
 	<li>Build highly available solutions.</li>
