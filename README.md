@@ -629,3 +629,12 @@ Kubernetes is a orchestration layer for containers (the standard for containers 
 </ul>
 First, we get into what Kubernetes really is. What are the reasons for it? How is it developed and why <i>Google</i> Open Source Kubernetes. We will also get into developing a solution with Kubernetes so that you can get your hands dirty with building a orchestration layer using the Kubernetes service.
 </p>
+
+<h3>Kuberneted Basic Workflow</h3>
+<ul>
+	<li><b>Step 1</b>. Create a Kubernetes cluster.</li>
+	<li><b>Step 2</b>. Deploy your application (push application to the cluster).</li>
+	<li><b>Step 3</b>. Expose application port. Your internal port will be exposed to web browser or a mobile client.</li>
+	<li><b>Step 4</b>. Application (automatically) scale up.</li>
+	<li><b>Step 5</b>. Application update using <i>CI</i> (Continuous Integration).</li>
+</ul>
