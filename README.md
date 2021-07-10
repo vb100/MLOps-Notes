@@ -553,6 +553,8 @@ class Book:
 
 > Basically this class allows you to create Book instances, where you can set book author, year, and cost. By using this class you can calculate price with discount, get book old age in years, and get author email address.
 
+> So, let's create some test for this file. First of all, create a new file, and name it <i>test_book.py</i>.
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
