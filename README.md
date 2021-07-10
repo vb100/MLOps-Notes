@@ -616,6 +616,7 @@ In the file above, we inherit from Python 3.7.3, and then assign some directorie
 
 <h2>Kubernetes</h2>
 <p>
+Kubernetes is a orchestration layer for containers.
 <ul>
 	<li>Powerful orchestration service for containers.</li>
 	<li>Build highly available solutions.</li>
