@@ -641,3 +641,6 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 </ul></p>
 
 <p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>. A <b>master</b> is where all the control is takes place.This <b>Kubernetes API</b> allows the orchestratons to these different nodes. Also, it is a <b>jobs orchestration system</b>.</p>
+
+<h3>Where we can run Kubernetes?</h3>
+<p>We can run Kubernetes in Amazon EKS.</p>
