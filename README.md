@@ -616,7 +616,7 @@ In the file above, we inherit from Python 3.7.3, and then assign some directorie
 
 <h2>Kubernetes</h2>
 <p>
-Kubernetes is a orchestration layer for containers (the standard for containers orchestration). It is a useful tool for containerized applications.<br>Many cloud providers supports Kubernetes: <b>AWS</b> via <a href=https://aws.amazon.com/eks/>Amazon EKC</a>; <b>Google</b> via <a href=https://cloud.google.com/kubernetes-engine/>Google Kuberneted Engine GKE</a>. There are many ways to install it. One way is to use <i>Docker Desktop</i>. If you are more advanced user, you can use <code>kubectl</code> command together with <code>curl</code> commands.
+Kubernetes is a orchestration layer for containers (the standard for containers orchestration). It is a useful tool for containerized applications.<br>Many cloud providers supports Kubernetes: <b>AWS</b> via <a href=https://aws.amazon.com/eks/>Amazon EKS</a>; <b>Google</b> via <a href=https://cloud.google.com/kubernetes-engine/>Google Kuberneted Engine GKE</a>. There are many ways to install it. One way is to use <i>Docker Desktop</i>. If you are more advanced user, you can use <code>kubectl</code> command together with <code>curl</code> commands.
 <ul>
 	<li>Powerful orchestration service for containers.</li>
 	<li>Container Health Managements.</li>
@@ -643,4 +643,4 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 <p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>. A <b>master</b> is where all the control is takes place.This <b>Kubernetes API</b> allows the orchestratons to these different nodes. Also, it is a <b>jobs orchestration system</b>.</p>
 
 <h3>Where we can run Kubernetes?</h3>
-<p>We can run Kubernetes in Amazon EKS.</p>
+<p>We can run Kubernetes in Amazon EKS, or in Google GKE, or in Azure with its Kubernetes service. If you are using Docker, you can run it also locally.</p>
