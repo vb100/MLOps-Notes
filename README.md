@@ -526,6 +526,14 @@ self.assertRaises(ValueError, app.divide, 10, 0)
 	<li><b>Portability and Usability</b>. Usability is an another key component. In DevOps and Data Science, are <b>two</b> domains where portability can really pay dividends. For example, if you are data scientist and you have a whole environment that does some <i>ML workflow</i>, and you give someone a source control of it, and inside of that source control repository, there is no way to reproduce a <i>runtime</i>. So, giving them a source code, did not really solve the problem for them. But with the Container, it allows the runtime as well to be included and this is a key takeaway. This runtime, when you are able to package it in your project, it is completely reproducible. </li>
 </ul>
 <p>
+	
+> <h4>Step #11. Better way to use <code>assertRaises</code> test</h4>
+> This way of testing method inception into one line of code is not very efficiency. We would like the call the function that we are wanting to test normally, instead of passing all of these arguments. The best way to implement this approach is to use a <i>context manager</i> in Python. This allows us to handle and check the exception properly. To do it, first all, get rid of everything inline after <code>ValueError</code>, and transform the definition into <i>context manager</i> structure as follow. 
+
+```` py
+with self.assertRaises(ValueError):
+	app.divide(10, 0)
+````
 
 | Containers | Virtual Machines |
 | ---------- | ---------- | 
