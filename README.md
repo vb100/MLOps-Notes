@@ -644,3 +644,8 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 
 <h3>Where we can run Kubernetes?</h3>
 <p>We can run Kubernetes in Amazon EKS, or in Google GKE, or in Azure with its Kubernetes service. If you are using Docker, you can run it also locally.<br>Here is a simple example where you could expose it to port <i>80:80</i>, and that would be the service, inside where you have your endpoints which csupport the things that get set up.</p>
+<p>This could be deployed via the following command.</p>
+
+````
+docker stack deploy  --namespace my-app --compose-file /path/to/docker-compose.yml
+````
