@@ -525,6 +525,32 @@ with self.assertRaises(ValueError):
 
 > By using this context manager, we could see that all our test still passed. So, I suggest to use <i>context managers</i> instead of using exceptions.
 
+> <h4>Step #12. More dificult tests</h4>
+> <p>In this part we will use another Python file <i>book.py</i> consist of single OOP class which describe a book, and have just few simple variables and methods for demonstrating purpose.</p>
+
+```` py
+class Book:
+	'''A sample of Book class which must be tested'''
+
+	discount = 10
+
+	def __init__(self, author, year, cost):
+		self.author = author
+		self.year = year
+		self.cost = cost
+
+	@property
+	def author_email(self):
+		return f'{self.author}@mail.com'
+
+	@property
+	def old(self):
+		return 2021 - self.year
+
+	def apply_discount(self):
+		self.cost = int(self.cost * (1 - self.discount/100)
+````
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
