@@ -640,4 +640,4 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 	<li><b>Step 5</b>. Application update using <i>CD</i> (Continuous Delivery).</li>
 </ul></p>
 
-<p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>. A <b>master</b> is where all the control is takes place.This <b>Kubernetes API</b> allows the orchestratons to these different nodes. Also, it is a <b>job orchestration system</b>.</p>
+<p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>. A <b>master</b> is where all the control is takes place.This <b>Kubernetes API</b> allows the orchestratons to these different nodes. Also, it is a <b>jobs orchestration system</b>.</p>
