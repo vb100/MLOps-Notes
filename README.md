@@ -631,10 +631,14 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 </p>
 
 <h3>Kuberneted Basic Workflow</h3>
+<p>
 <ul>
 	<li><b>Step 1</b>. Create a Kubernetes cluster.</li>
 	<li><b>Step 2</b>. Deploy your application (push application to the cluster).</li>
 	<li><b>Step 3</b>. Expose application port. Your internal port will be exposed to web browser or a mobile client.</li>
 	<li><b>Step 4</b>. Application (automatically) scale up.</li>
 	<li><b>Step 5</b>. Application update using <i>CD</i> (Continuous Delivery).</li>
-</ul>
+</ul></p>
+
+<h3><Kubernetes Hierarchy</h3>
+	<p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>.</p>
