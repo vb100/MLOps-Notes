@@ -641,4 +641,5 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 </ul></p>
 
 <h3><Kubernetes Hierarchy</h3>
+	
 <p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>.</p>
