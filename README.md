@@ -551,7 +551,7 @@ class Book:
 		self.cost = int(self.cost * (1 - self.discount/100)
 ````
 
-> Basically this class allows you to create Book instances, where you can set book author, year, and cost.
+> Basically this class allows you to create Book instances, where you can set book author, year, and cost. By using this class you can calculate price with discount, get book old age in years, and get author email address.
 
 <h2>Containers</h2>
 
