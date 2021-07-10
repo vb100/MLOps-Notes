@@ -523,6 +523,8 @@ with self.assertRaises(ValueError):
 	app.divide(10, 0)
 ````
 
+> By using this context manager, we could see that all our test still passed. So, I suggest to use <i>context managers</i> instead of using exceptions.
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
