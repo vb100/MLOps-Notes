@@ -636,5 +636,5 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 	<li><b>Step 2</b>. Deploy your application (push application to the cluster).</li>
 	<li><b>Step 3</b>. Expose application port. Your internal port will be exposed to web browser or a mobile client.</li>
 	<li><b>Step 4</b>. Application (automatically) scale up.</li>
-	<li><b>Step 5</b>. Application update using <i>CI</i> (Continuous Integration).</li>
+	<li><b>Step 5</b>. Application update using <i>CD</i> (Continuous Delivery).</li>
 </ul>
