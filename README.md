@@ -649,24 +649,24 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 version: '3.3'
 
 services:
-web:
-image: dockersamples/k8s-wordsmith-web
-ports:
-- "80:80"
+  web:
+    image: dockersamples/k8s-wordsmith-web
+    ports:
+      - "80:80"
 
-words:
-image: dockersamples/k8s-wordsmith-api
-deploy:
-replicas: 5
-endpoint_mode: dnsrr
-resources:
-limits:
-memory: 50M
-reservations:
-memory: 50M
+  words:
+    image: dockersamples/k8s-wordsmith-api
+    deploy:
+      replicas: 5
+      endpoint_mode: dnsrr
+      resources:
+        limits:
+          memory: 50M
+        reservations:
+          memory: 50M
 
 db:
-image: dockersamples/k8s-wordsmith-db
+  image: dockersamples/k8s-wordsmith-db
 ````
 
 <p>This could be deployed via the following command.</p>
