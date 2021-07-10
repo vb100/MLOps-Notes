@@ -624,7 +624,6 @@ In the file above, we inherit from Python 3.7.3, and then assign some directorie
 		<li>Scale.</li>
 		<li>Auto-heal</li>
 	</ul>
-	<li></li>
 </ul>
 First, we get into what Kubernetes really is. What are the reasons for it? How is it developed and why <i>Google</i> Open Source Kubernetes. We will also get into developing a solution with Kubernetes so that you can get your hands dirty with building a orchestration layer using the Kubernetes service.
 </p>
