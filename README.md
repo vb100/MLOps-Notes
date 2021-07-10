@@ -649,3 +649,5 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 ````
 docker stack deploy  --namespace my-app --compose-file /path/to/docker-compose.yml
 ````
+
+<p>One of the <i>killer</i> feature of Kubernetes is the ability to setup autoscaling via the Horizontal Pod Autoscaler.</p>
