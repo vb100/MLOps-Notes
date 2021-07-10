@@ -515,6 +515,14 @@ self.assertRaises(ValueError, app.divide, 10, 0)
 > When writing <code>assertRaises</code> test, we always should be care that <code>ValueError</code> will be checked in correct conditions. Let's simulate, how bad test is looking like. Let's change the last argument is <code>assertRaises</code> method from <code>0</code> to <code>2</code>. By doing it, we are telling to the system that <i>we are expecting a <code>ValueError</code> by performing 10 / 2.</i> We know that is valid procedure and no any errors in this scenario should be delivered.<br>
 > The <i>unittest</i> module understand it and returns message <i>AssertionError: ValueError not raised by divide</i>. This indicates that our test is wrong and we need to fix it. So, let's change the value of <code>2</code> to <code>0</code> back in <code>assertRaises</code> method.
 
+> <h4>Step #11. Better way to use <code>assertRaises</code> test</h4>
+> This way of testing method inception into one line of code is not very efficiency. We would like the call the function that we are wanting to test normally, instead of passing all of these arguments. The best way to implement this approach is to use a <i>context manager</i> in Python. This allows us to handle and check the exception properly. To do it, first all, get rid of everything inline after <code>ValueError</code>, and transform the definition into <i>context manager</i> structure as follow. 
+
+```` py
+with self.assertRaises(ValueError):
+	app.divide(10, 0)
+````
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
@@ -526,14 +534,6 @@ self.assertRaises(ValueError, app.divide, 10, 0)
 	<li><b>Portability and Usability</b>. Usability is an another key component. In DevOps and Data Science, are <b>two</b> domains where portability can really pay dividends. For example, if you are data scientist and you have a whole environment that does some <i>ML workflow</i>, and you give someone a source control of it, and inside of that source control repository, there is no way to reproduce a <i>runtime</i>. So, giving them a source code, did not really solve the problem for them. But with the Container, it allows the runtime as well to be included and this is a key takeaway. This runtime, when you are able to package it in your project, it is completely reproducible. </li>
 </ul>
 <p>
-	
-> <h4>Step #11. Better way to use <code>assertRaises</code> test</h4>
-> This way of testing method inception into one line of code is not very efficiency. We would like the call the function that we are wanting to test normally, instead of passing all of these arguments. The best way to implement this approach is to use a <i>context manager</i> in Python. This allows us to handle and check the exception properly. To do it, first all, get rid of everything inline after <code>ValueError</code>, and transform the definition into <i>context manager</i> structure as follow. 
-
-```` py
-with self.assertRaises(ValueError):
-	app.divide(10, 0)
-````
 
 | Containers | Virtual Machines |
 | ---------- | ---------- | 
