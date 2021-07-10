@@ -643,4 +643,4 @@ First, we get into what Kubernetes really is. What are the reasons for it? How i
 <p>You can have multiple containers inside a <b>pod</b>. You can have multiple pods inside a <b>node</b>. A <b>master</b> is where all the control is takes place.This <b>Kubernetes API</b> allows the orchestratons to these different nodes. Also, it is a <b>jobs orchestration system</b>.</p>
 
 <h3>Where we can run Kubernetes?</h3>
-<p>We can run Kubernetes in Amazon EKS, or in Google GKE, or in Azure with its Kubernetes service. If you are using Docker, you can run it also locally.</p>
+<p>We can run Kubernetes in Amazon EKS, or in Google GKE, or in Azure with its Kubernetes service. If you are using Docker, you can run it also locally.<b>Here is a simple example where you could expose it to port <i>80:80</i>, and that would be the service, inside where you have your endpoints which csupport the things that get set up.</p>
