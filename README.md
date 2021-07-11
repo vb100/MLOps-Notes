@@ -603,10 +603,11 @@ if __name__ == '__main__':
 	unittest.main()
 ````
 
-> <p>With the script above (<i>test_book.py</i>) we will test script <i>book.py</i>. The test file <i>test_book.py</i> consist of 3 different tests:
-> <ul><li><code>test_email</code>: Testing author's email adress which <b>must</b> consist of a given <i>name</i> and <i>surname</i> with an underscore between.</li>
-> <li><code>test_old</code>: Testing how old the book is. This is should valid the simple formula <code>2021 - self.year</code>.</li>
-> <li><code>test_apply_discount</code>: Testing the final price if the discount will be applied. The default value of discount is <i>10%</i>.</li></ul></p>
+> <p>With the script above (<i>test_book.py</i>) we will test script <i>book.py</i>. The test file <i>test_book.py</i> consist of 3 different tests where we will test 2 objects of class <code>Book</code>: <code>book_1</code>, and <code>book_2</code>.
+> <ul><li><code>test_email</code>: Testing author's email adress which <b>must</b> consist of a given <i>name</i> and <i>surname</i> with an underscore between. In this test we start with the first couple of <i>names</i> and <i>surnames</i> of the books, and change it after first part of this test in lines of code no. <i>14</i> and <i>15</i>. I always recommend do not limit your choices of test variations for every single tests, use some edge cases by side, as I have mentioned before.</li>
+> <li><code>test_old</code>: Testing how old the book is. This is should valid the simple formula <code>2021 - self.year</code>. In this test we start with the first couple of values for the books, and change its puslished years values in line codes <i>27</i> and <i>28</i>, as we did in the first test.</li>
+> <li><code>test_apply_discount</code>: Testing the final price if the discount will be applied. The default value of discount is <i>10%</i>.</li></ul>
+> </p>
 
 <h2>Containers</h2>
 
