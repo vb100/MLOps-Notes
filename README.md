@@ -612,7 +612,7 @@ if __name__ == '__main__':
 > <p>As we ran <b>3</b> different tests, we surely expect to see the output saying that all our <b>3</b> tests passed. The output in your working terminal should be as it is represented below.</p>
 
 <center>
-<img src="images/screen_unittest_02.png" alt="Unit Test Output of 3 different tests in Terminal">
+<img src="images/screen_unittest_02.png" width=400px alt="Unit Test Output of 3 different tests in Terminal">
 </center>
 
 <h2>Containers</h2>
