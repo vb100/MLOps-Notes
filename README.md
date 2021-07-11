@@ -615,6 +615,8 @@ if __name__ == '__main__':
 <img src="images/screen_unittest_02.png" width=550px alt="Unit Test Output of 3 different tests in Terminal">
 </center>
 
+> <p>Remember, in this example, application file <i>book.py</i> and <i>test_book.py</i> must be in the same directory.</p>
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
