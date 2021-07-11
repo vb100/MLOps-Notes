@@ -604,9 +604,9 @@ if __name__ == '__main__':
 ````
 
 > <p>With the script above (<i>test_book.py</i>) we will test script <i>book.py</i>. The test file <i>test_book.py</i> consist of 3 different tests:
-	> <ul><li><code>test_email</code>: Testing author's email adress which <b>must</b> consist of a given <i>name</i> and <i>surname</i> with an underscore betwen.</li>
-		> <li><code>test_old</code>: Testing how old the book is. This is should valid the simple formula <code>2021 - self.year</code>.</li>
-		> <li><code>test_apply_discount</code>: Testing the final price if the discount will be applied. The default value of discount is <i>10%</i>.</li></ul></p>
+> <ul><li><code>test_email</code>: Testing author's email adress which <b>must</b> consist of a given <i>name</i> and <i>surname</i> with an underscore between.</li>
+> <li><code>test_old</code>: Testing how old the book is. This is should valid the simple formula <code>2021 - self.year</code>.</li>
+> <li><code>test_apply_discount</code>: Testing the final price if the discount will be applied. The default value of discount is <i>10%</i>.</li></ul></p>
 
 <h2>Containers</h2>
 
