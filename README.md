@@ -541,19 +541,72 @@ class Book:
 
 	@property
 	def author_email(self):
-		return f'{self.author}@mail.com'
+		return f'{self.author}@mail.com'.replace(' ', '_')
 
 	@property
 	def old(self):
 		return 2021 - self.year
 
 	def apply_discount(self):
-		self.cost = int(self.cost * (1 - self.discount/100)
+		self.cost = int(self.cost * (1 - self.discount/100))
 ````
 
 > Basically this class allows you to create Book instances, where you can set book author, year, and cost. By using this class you can calculate price with discount, get book old age in years, and get author email address.
 
-> So, let's create some test for this file. First of all, create a new file, and name it <i>test_book.py</i>.
+> Furthermore we will go with bigger codes due it's complexity without explaining the same key points which are mentioned before in this chapter. So, let's create some test for this file. First of all, create a new file, and name it <i>test_book.py</i>.
+
+```` py
+import unittest
+from book import Book
+
+
+class TestBook(unittest.TestCase):
+
+	def test_email(self):
+		book_1 = Book('Smith Garry', 2019, 60)
+		book_2 = Book('Kelly Frank', 2016, 45)
+
+		self.assertEqual(book_1.author_email, 'Smith_Garry@mail.com')
+		self.assertEqual(book_2.author_email, 'Kelly_Frank@mail.com')
+
+		book_1.author = 'Tony King'
+		book_2.author = 'Jane Mandy'
+
+		self.assertEqual(book_1.author_email, 'Tony_King@mail.com')
+		self.assertEqual(book_2.author_email, 'Jane_Mandy@mail.com')
+
+	def test_old(self):
+		book_1 = Book('Smith Garry', 2019, 60)
+		book_2 = Book('Kelly Frank', 2016, 45)
+
+		self.assertEqual(book_1.old, 2)
+		self.assertEqual(book_2.old, 5)
+
+		book_1.year = 2017
+		book_2.year = 2021
+
+		self.assertEqual(book_1.old, 4)
+		self.assertEqual(book_2.old, 0)
+
+	def test_apply_discount(self):
+		book_1 = Book('Smith Garry', 2019, 60)
+		book_2 = Book('Kelly Frank', 2016, 45)
+
+		book_1.apply_discount()
+		book_2.apply_discount()
+
+		self.assertEqual(book_1.cost, 54)
+		self.assertEqual(book_2.cost, 40)
+
+
+if __name__ == '__main__':
+	unittest.main()
+````
+
+> <p>With the script above (<i>test_book.py</i>) we will test script <i>book.py</i>. The test file <i>test_book.py</i> consist of 3 different tests:
+	> <ul><li><code>test_email</code>: Testing author's email adress which <b>must</b> consist of a given <i>name</i> and <i>surname</i> with an underscore betwen.</li>
+		> <li><code>test_old</code>: Testing how old the book is. This is should valid the simple formula <code>2021 - self.year</code>.</li>
+		> <li><code>test_apply_discount</code>: Testing the final price if the discount will be applied. The default value of discount is <i>10%</i>.</li></ul></p>
 
 <h2>Containers</h2>
 
