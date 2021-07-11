@@ -609,6 +609,12 @@ if __name__ == '__main__':
 > <li><code>test_apply_discount</code>: Testing the final price if the discount will be applied. The default value of discount is <i>10%</i>.</li></ul>
 > </p>
 
+> <p>As we ran <b>3</b> different tests, we surely expect to see the output saying that all our <b>3</b> tests passed. The output in your working terminal should be as it is represented below.</p>
+
+<center>
+<img src="images/screen_unittest_02.png" alt="Unit Test Output of 3 different tests in Terminal">
+</center>
+
 <h2>Containers</h2>
 
 <h4>When to use Containers? Top reasons.</h4>
